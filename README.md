@@ -24,6 +24,14 @@ Runs a Lighthouse audit on a site and turns the results into a readable report w
 
 <img src="assets/auditor-1-landing.jpg" alt="WebsiteAudit AI landing page" width="60%">
 
+### Beacon — free portfolio tracker
+
+[Source](https://github.com/baristabumbum/beacon-portfolio-tracker) · [Live demo](https://beaconfolio.vercel.app)
+
+An account-less tracker for US stocks, ETFs, crypto and BIST. Transactions stay in the browser, prices come from small serverless routes, and the portfolio engine (weighted-average cost, realized and unrealized P&L) is a separate, tested TypeScript package. Next.js, React, ECharts, Playwright. 16 end-to-end tests.
+
+<img src="assets/beacon-dashboard.webp" alt="Beacon portfolio dashboard" width="70%">
+
 ### Case study: making 3D/AR files about 65% lighter
 
 On iPhone, AR Quick Look downloads the whole file before it opens, so file size is load time. I measured Serva's AR assets and found that 78% of the USDZ was uncompressed PNG textures. After switching to JPEG textures and Draco geometry, and preloading menu images:
